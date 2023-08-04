@@ -22,7 +22,7 @@ export const Work = () => {
   return (
     <div>
         <div className='works px-[50px] mt-[150px] py-[50px]'>
-            <h1>How it works</h1>
+            <h1 className='text-[30px]'>How it works</h1>
             <div className='text-start flex mb-10'>
                {
                 Box.map((item, index)=>(
@@ -34,7 +34,7 @@ export const Work = () => {
                 ))
                }
             </div>
-            <Link className='bg-green-300 text-white px-6 py-3 border rounded ' to={"/plan"}>Create your plane</Link>
+            <Link className='bg-[#0E8784] text-white px-6 py-3 border rounded ' to={"/plan"}>Create your plane</Link>
         </div>
     </div>
   )

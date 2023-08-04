@@ -32,10 +32,10 @@ export const Choose = () => {
     <div className='flex justify-center space-x-[115px] py-[50]'>
     {
         Box.map((item, index)=>(
-            <div className='box text-center w-[310px] bg-green-600 text-white py-10 rounded pt-[100px] mb-[-100px]' key={index}>
+            <div className='box text-center w-[310px] bg-[#0E8784] text-white py-10 rounded pt-[100px] mb-[-100px]' key={index}>
             <img className='mb-4 mx-auto' src={item.image} alt="" />
             <h2 className='font-bold text-xl w-[150px] mx-auto mb-3'>{item.title}</h2>
-            <p className='w-[270px] mx-auto'>{item.text}</p>
+            <p className='w-[270px] mx-auto text-slate-300'>{item.text}</p>
             </div>
         ))
     }
